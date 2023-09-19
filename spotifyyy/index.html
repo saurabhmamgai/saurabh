@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+
+        
+        header {
+            background-color: #1DB954;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .fe
+         
+
+
+        
+        
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #playlist {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        .song {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .song img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .song h3 {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .song p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SPOTIFY</h1>
+    </header>
+    <p><h2>login</h2></p>
+<form>
+<label for="username">Username : </label>
+<input type="text" name="name" id="usernames" placeholder="Username" >
+<br><br>
+<label for="email">Email : </label>
+<input type="email" id="email" placeholder="Email" name="email">
+<br><br>
+<label for="number">Phone number : </label>
+<input type="number" id="number" placeholder="Phone number">
+<br><br>
+<label for="password">Password : </label>
+<input type="password" name="" id="password" placeholder="password">
+<br><br>
+<label for="dob">Date of birth : </label>
+<input type="datetime-local" name="" id="dob">
+</form>
+    <div class="co">
+        <h2>Your Playlist</h2>
+        <div id="playlist">
+            <div class="song">
+                <img src="album1.jpg" alt="Song 1">
+                <h3>Agar tum saath ho</h3>
+                <p>Alka yaginik</p>
+                <audio controls autoplay muted loop> <source src="https://aac.saavncdn.com/994/2e6b47719cea3e7c9f971a3f1ddc9b0a_160.mp4"></audio>  
+            </div>
+            <div class="song">
+                <img src="album2.jpg" alt="Song 2">
+                <h3>Rustoom</h3>
+                <p>Artif Aslam</p>
+                <audio controls autoplay src="https://aac.saavncdn.com/298/74e78bbd04353f2fb7059c4b41ec15b1_160.mp4"></audio>
+            </div>
+            <div class="song">
+                <img src="album3.jpg" alt="Song 3">
+                <h3>Dill DIYA Gallan</h3>
+                <p>Sonu Nigam</p>
+                <audio controls autoplay src="https://aac.saavncdn.com/240/2a80b5248e85af6a6567011982bc5cfc_160.mp4"></audio>
+            </div>
+            <div class="song">
+                <img src="album4.jpg" alt="Song 4">
+                <h3>Ganpati Bappa MORYA</h3>
+                <p>Bhakt</p>
+                <audio controls autoplay src="https://aac.saavncdn.com/240/2a80b5248e85af6a6567011982bc5cfc_160.mp4"></audio>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
